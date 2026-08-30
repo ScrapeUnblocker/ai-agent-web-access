@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "scrapeunblocker": {
+      "command": "npx",
+      "args": ["-y", "scrapeunblocker-mcp"],
+      "env": {
+        "SCRAPEUNBLOCKER_KEY": "your_key_here"
+      }
+    }
+  }
+}
