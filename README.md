@@ -36,7 +36,7 @@ LangChain, or your own agent loop.
 
 If your agent client speaks [MCP](https://modelcontextprotocol.io) (Claude Desktop,
 Cursor, and others), you don't need this package at all — just point it at the
-official [`scrapeunblocker-mcp`](https://developers.scrapeunblocker.com/sdks/mcp?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
+official [`scrapeunblocker-mcp`](https://docs.scrapeunblocker.com/sdks/mcp?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
 server. Copy [`mcp/claude_desktop_config.json`](mcp/claude_desktop_config.json)
 into your client config:
 
@@ -147,9 +147,9 @@ Tests mock the SDK, so `make test` runs without a key and without spending credi
 ## Links
 
 - Website — https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- Documentation — https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- MCP server — https://developers.scrapeunblocker.com/sdks/mcp?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- Python SDK — https://developers.scrapeunblocker.com/sdks/python?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- Documentation — https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- MCP server — https://docs.scrapeunblocker.com/sdks/mcp?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- Python SDK — https://docs.scrapeunblocker.com/sdks/python?utm_source=github&utm_medium=integration&utm_campaign=example-repos
 
 ## License
 
