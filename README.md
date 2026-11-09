@@ -1,7 +1,7 @@
 # ai-agent-web-access
 
 [![CI](https://github.com/ScrapeUnblocker/ai-agent-web-access/actions/workflows/ci.yml/badge.svg)](https://github.com/ScrapeUnblocker/ai-agent-web-access/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **Give any AI agent reliable, unblocked web access.** Three drop-in tools —
@@ -19,7 +19,7 @@ LangChain, or your own agent loop.
 
 ## Features
 
-- **The same three capabilities as the official MCP server**, as native Python tools:
+- **The three core capabilities of the official MCP server**, as native Python tools:
   - `fetch_html` — the fully rendered HTML of any URL
   - `fetch_parsed` — AI-parsed structured JSON instead of raw markup
   - `web_search` — Google organic results as JSON
@@ -52,12 +52,13 @@ into your client config:
 }
 ```
 
-That exposes `fetch_html`, `fetch_parsed`, and `web_search` to the model directly.
+That exposes `fetch_html`, `fetch_parsed`, and `google_search` (plus Markdown,
+browser-steps, and site-plugin tools) to the model directly.
 
 ### 2. Python tools (this package)
 
 For agents built on the OpenAI/Anthropic SDKs, LangChain, or a custom loop, use the
-identical three tools from Python — see below.
+same three core tools from Python (search is named `web_search` here) — see below.
 
 ## Install
 

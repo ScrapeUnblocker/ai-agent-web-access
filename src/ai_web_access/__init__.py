@@ -1,6 +1,6 @@
 """Reliable, unblocked web access tools for AI agents, powered by ScrapeUnblocker.
 
-This package exposes the same three capabilities as the ``scrapeunblocker-mcp``
+This package exposes the three core capabilities of the ``scrapeunblocker-mcp``
 server -- fetch rendered HTML, fetch AI-parsed structured JSON, and run a Google
 search -- as native Python *tools* you can drop into any LLM tool-calling loop
 (OpenAI, Anthropic, LangChain, your own dispatcher).
